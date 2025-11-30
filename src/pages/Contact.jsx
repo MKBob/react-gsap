@@ -24,7 +24,7 @@ const Contact = () => {
       </div>
         </form>
        </div>
-       <div className='bg-amber-300 w-full lg:w-1/2 rounded-3xl h-64 sm:h-80 md:h-96 lg:h-auto'>
+       <div className='w-full lg:w-1/2 rounded-3xl h-64 sm:h-80 md:h-96 lg:h-auto'>
        <Video src={'../../public/home.mp4'}/>
        </div>
     </div>
