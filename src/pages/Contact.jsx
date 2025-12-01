@@ -8,7 +8,7 @@ const Contact = () => {
       px-2 sm:px-3 md:px-4 lg:px-5 py-6 lg:py-0 overflow-y-auto lg:overflow-y-hidden">
 
       {/* LEFT SECTION */}
-      <div className="w-full lg:w-[40%] mx-auto my-auto">
+      <div className="w-full lg:w-[40%] px-4 sm:px-0 mx-auto my-auto">
         <h1 className="font-[font1] text-4xl sm:text-5xl md:text-6xl 
           lg:text-[4vw] font-bold my-10">
           Get In Touch
@@ -72,7 +72,7 @@ const Contact = () => {
             px-4 sm:px-6 md:px-8 pt-1 lg:px-12 
             rounded-full uppercase duration-300 ease-out">
 
-            <span className="absolute inset-0 bg-[#D3FD50] translate-y-full 
+            <span className="absolute inset-0 bg-[#D3FD50] -translate-y-full 
               group-hover:translate-y-0 transition-transform duration-300 ease-in-out"></span>
 
             <Link

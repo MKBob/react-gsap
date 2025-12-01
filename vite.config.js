@@ -8,4 +8,10 @@ export default defineConfig({
   plugins: [react(),    
      tailwindcss(),
 ],
+  server: {
+    host: true, // show "Network" URL in terminal
+  },
+  preview: {
+    host: true, // also show network URL for preview
+  },
 })
