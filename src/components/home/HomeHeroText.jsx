@@ -10,7 +10,7 @@ const HomeHeroText = () => {
             <div className='lg:text-[9.5vw] text-[12vw] justify-center flex items-start uppercase lg:leading-[8vw] leading-[10vw]'>
                 qui
                 <div className='h-[7vw] w-[16vw] rounded-full -mt-3 overflow-hidden '>
-                    <Video src={"../../public/home1.mp4"} />
+                    <Video src={"/public/home1.mp4"} />
                 </div>
                 génère
             </div>

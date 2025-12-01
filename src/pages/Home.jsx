@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <div className='text-white'>
       <div className='h-screen w-screen fixed'> 
-       <Video src='../../../home1.mp4' />
+       <Video src='/home1.mp4' />
       </div>
       <div className='h-screen w-screen relative pb-5 overflow-hidden flex flex-col justify-between'> 
          <HomeHeroText />

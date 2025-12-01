@@ -93,7 +93,7 @@ const Contact = () => {
       {/* RIGHT VIDEO SECTION */}
       <div className="w-full lg:w-1/2 rounded-3xl 
         h-64 sm:h-80 md:h-96 lg:h-auto">
-        <Video src={'../../public/home.mp4'} />
+        <Video src={'/public/home.mp4'} />
       </div>
 
     </div>
